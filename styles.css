@@ -1,0 +1,23 @@
+/* Estilo para o botão de criação de conta */
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    /* Gradiente apenas nas bordas */
+    background-image: linear-gradient(to right, transparent, transparent),
+                      linear-gradient(to right, #ff8a00, #e52e71);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+  
+  .registration-form button:hover {
+    /* Gradiente invertido ao passar o mouse */
+    background-image: linear-gradient(to right, transparent, transparent),
+                      linear-gradient(to right, #e52e71, #ff8a00);
+  }
+  
