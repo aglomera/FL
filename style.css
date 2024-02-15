@@ -39,7 +39,7 @@ label {
 
   button {
     background: linear-gradient(to right, #ff0099, #ff0000) ; /* Depois para cima */
-    color: #000000;
+    color: #ffffff;
     transition: background 0.3s ease; 
     border-radius: 30px;
   } 
@@ -63,13 +63,13 @@ select {
 }
 
 input::placeholder {
-    color: #a0a4ae;
+    color: #5b5959;
 }
 
 input:focus,
 select:focus {
     outline: none;
-    border: 2px solid #ff0773;
+    border: 2px solid #07eaff;
 }
 
 /* Additional styles for responsiveness */
@@ -88,7 +88,8 @@ select:focus {
     background-color: #141314;
     padding: 30px;
     border-radius: 10px;  
-    box-shadow: 0 0 1px #00fff9, 0 0 2px #00fff9, 0 0 3px #00fff9, 0 0 4px #00fff9, 0 0 7px #00fff9, 0 0 8px #00fff9, 0 0 10px #00fff9, 0 0 15px #00fff9;
+    box-shadow: 0 0 1px #230bd7, 0 0 2px #f200ff, 0 0 3px #00fff9, 0 0 4px #f00a75, 0 0 7px #ff5900, 0 0 8px #070707, 0 0 10px #61275f, 0 0 15px #331492;
+    text-align: center; 
 } 
 h1 {
     font-family: 'Arial', sans-serif;

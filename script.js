@@ -10,3 +10,6 @@ function togglePasswordVisibility() {
         eyeIcon.src = "hide.png";
     }
 }
+function validarFormulario(){ 
+    alert("ops a plataforma ainda não está disponivel");
+}
