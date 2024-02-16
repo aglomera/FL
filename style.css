@@ -73,11 +73,6 @@ select:focus {
 }
 
 /* Additional styles for responsiveness */
-@media (max-width: 600px) {
-    form {
-        width: 80%;
-    }
-}
 #eye-icon {
     width: 25px;
     height: 25px;
